@@ -1,0 +1,14 @@
+[package]
+name = "aes-ligero"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ligero = { git = "https://github.com/NP-Eng/ligero.git" }
+arithmetic-circuits = { git = "https://github.com/NP-Eng/ligero.git" }
+ark-std = { version = "0.5.0-alpha", default-features = false }
+ark-ff = { version = "0.5.0-alpha", default-features = false }
+ark-circom = { git = "https://github.com/HungryCatsStudio/circom-compat", branch = "update-0.5" }
+ark-relations = { version = "0.5.0-alpha", default-features = false }
+ark-bn254 = { version = "0.5.0-alpha", default-features = false, features = [ "curve" ] }
+
